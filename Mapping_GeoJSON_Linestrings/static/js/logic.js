@@ -33,14 +33,26 @@ let map = L.map('mapid', {
 L.control.layers(baseMaps).addTo(map);
 
 // Add GeoJSON data.
-let torontoData = "https://raw.githubusercontent.com/mooshak21/Mapping_Earthquakes/main/torontoRoutes.json"
+let torontoData = "https://raw.githubusercontent.com/mooshak21/Mapping_Earthquakes/main/torontoRoutes.json";
+
+let myStyle = {
+  color: "#ffffa1",
+  weight: 2
+}
 
 // Grabbing our GeoJSON data.
 d3.json(torontoData).then(function(data) {
   console.log(data);
   // Creating a GeoJSON layer with the retrieved data.
-  L.geoJson(data).addTo(map);
+  L.geoJson(data, {
+    style: myStyle,
+    onEachFeature: function(feature, layer){
+      layer.bindPopup("<h3> Airline: " + feature.properties.airline + "</h3> <hr><h3> Destination: " + feature.properties.dst + "</h3>");
+    }
+  })
+  .addTo(map);
 });
+
 
 
 // L.circleMarker([34.0522, -118.2437], {
