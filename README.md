@@ -1,7 +1,7 @@
 # Mapping_Earthquakes
 
 ## Overview
-We are tasked to expand on our previous map creation by adding data associated with tectonic plates and major earthquakes. Using this data, we will create different overlays that a user can alternate between to visualize the data within each category.
+We are tasked to expand on our previous map creation by adding data associated with tectonic plates and major earthquakes. Using this data, we will create different overlays that a user can alternate between to visualize the data within each category. I completed the code in our js folder of this repo which can be found [here](https://github.com/mooshak21/Mapping_Earthquakes/blob/main/Earthquake_Challenge/static/js/challenge_logic.js)
 
 ## Deliverable 1 
 Tectonic Plate Data:
@@ -23,11 +23,14 @@ Adding a third map tile layer:
 Here we added a third tile layer (dark) to add to the other tile layers we already had (satellite, streets).
 As we can see both the Major Earthquake and All Earthquake overlays can be seen and displayed on the three tile layers.
 
-**Dark**
-![](https://github.com/mooshak21/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/Dark.png)
+>**Dark**
+>
+>![](https://github.com/mooshak21/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/Dark.png)
 
-**Streets**
-![](https://github.com/mooshak21/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/Streets.png)
+>**Streets**
+>
+>![](https://github.com/mooshak21/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/Streets.png)
 
-**Satellite**
-![](https://github.com/mooshak21/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/Satellite.png)
+>**Satellite**
+>
+>![](https://github.com/mooshak21/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/Satellite.png)
