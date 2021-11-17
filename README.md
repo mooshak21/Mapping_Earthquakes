@@ -10,3 +10,9 @@ Here we can see that we have taken the data from a JSON file that contains the l
 
 ![](https://github.com/mooshak21/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/Tectonic.png)
 
+## Deliverable 2
+Major Earthquake Data:
+
+Here we have taken the json data for [major earthquakes](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson). We used a function to filter the magnitudes that provide colors for varying ranges of magnitudes. For <5 we have a green color, >=5 and <6 we have a yellow color, and for >6 we have a red color.
+
+![](https://github.com/mooshak21/Mapping_Earthquakes/blob/main/Earthquake_Challenge/Resources/MajorEQ.png)
